@@ -1,0 +1,65 @@
+<Doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+    <style>
+        html{
+            min-height: 100vh;
+        }
+        body {
+            padding:0;
+            margin:0;
+            min-height: 100vh;
+        }
+        nav {
+            height: 4rem;
+            background-color: blue;
+            position: fixed;
+            left:0;
+            top:0;
+            width:100vw;
+        }
+        main {
+            flex-grow: 1;
+            background-color: purple;
+        }
+        footer {
+            height: 5rem;
+            background-color: green;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        .placeholder {
+            height: 4rem;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+<div>
+    <nav>
+        <form action="edit.php" method="POST">
+
+                <button type="submit" name="auswahl" value="Anzeigen"> Liegenschfften Anzeigen </button>
+                <button type="submit" name="auswahl" value="V_Anzeigen"> Verwaltungen Anzeigen </button>
+                <button type="submit" name="auswahl" value="Hinzufügen"> Liegenschfften Hinzufügen </button>
+                <button type="submit" name="auswahl" value="aa"> Liegenschfften Ändern </button>
+                <button type="submit" name="auswahl" value="Löschen">Liegenschfften Löschen </button>
+                <button type="submit" name="auswahl" value="Abfrage"> Abfragen erstellen </button>
+
+        </form>
+    </nav>
+    <div class="placeholder"></div>
+</div>
+    <main><h3>hello</h3></main>
+    <footer></footer>
+</div>
+</body>
+</html>
+
+
+</Doctype>
